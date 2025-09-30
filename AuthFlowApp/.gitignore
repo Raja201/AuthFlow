@@ -1,38 +1,7 @@
-# Node modules
 node_modules/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# React Native / Android / iOS build files
-android/app/build/
-ios/build/
 ios/Pods/
-*.xcworkspace
-*.xcuserdata
-*.xcodeproj/project.xcworkspace/
-*.xcodeproj/xcuserdata/
-
-# Temporary files
-tmp/
-temp/
-
-# Metro bundler cache
-.expo/
-.expo-shared/
-.expo-cache/
-metro-cache/
-*.expo
-
-# Environment variables
+*.log
+*.lock
 .env
-.env.*.local
-
-# Misc
-.DS_Store
-.idea/
-.vscode/
+build/
+.expo/
