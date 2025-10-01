@@ -1,57 +1,57 @@
 AuthFlow App
 
-An authentication application built with React Native (Expo) for the frontend and a Node.js/Express server with MongoDB/Mongoose for data persistence.
+    An authentication application built with React Native (Expo) for the frontend and a Node.js/Express server with MongoDB/Mongoose for data persistence.
 
-This project demonstrates a robust, token-based authentication flow (Login / Register / Logout) with a clear separation of concerns between client and server.
+    This project demonstrates a robust, token-based authentication flow (Login / Register / Logout) with a clear separation of concerns between client and server.
 
 🚀 Getting Started
+
 ✅ Prerequisites
 
 Make sure the following are installed on your system:
 
-Node.js (LTS)
+    Node.js (LTS)
 
-Expo CLI
+    Expo CLI
 
-npm install -g expo-cli
+    npm install -g expo-cli
 
 
-MongoDB (running locally or a MongoDB Atlas
- connection string)
+    MongoDB (running locally or a MongoDB Atlas connection string)
 
 ⚙️ Backend Setup
 
-Navigate to the server directory
+            Navigate to the server directory
 
-cd auth-backend
+            cd auth-backend
 
 
-Install dependencies
+            Install dependencies
 
-npm install
+            npm install
 
 
 Create a .env file in the server root with the following variables:
 
-MONGO_URI="YOUR_MONGODB_CONNECTION_STRING" 
-JWT_SECRET="your_secure_secret_key"
-JWT_EXPIRES_IN="1d"
+            MONGO_URI="YOUR_MONGODB_CONNECTION_STRING" 
+            JWT_SECRET="your_secure_secret_key"
+            JWT_EXPIRES_IN="1d"
 
 
 Start the server
 
-npm run dev
+        npm run dev
 
 📱 Frontend Setup
 
 Navigate to the client directory
 
-cd AuthFlowApp
+    cd AuthFlowApp
 
 
 Install dependencies
 
-npm install
+    npm install
 
 
 Update API URL
@@ -62,9 +62,11 @@ baseURL: "http://YOUR_LOCAL_IP:5000"
 
 💡 Replace YOUR_LOCAL_IP with your actual PC IP address.
 
+
+
 Start the Expo client
 
-npx expo start
+    npx expo start
 
 
 This will open the Metro Bundler. You can run the app on:
@@ -74,6 +76,9 @@ Android Emulator
 iOS Simulator
 
 Physical device (via the Expo Go app)
+
+** MAKE SURE YOU ARE CONNECTED TO SAME WIFI NETWORK
+
 
 🎯 Features
 
