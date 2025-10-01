@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Platform } from "react-native";
 
-const LOCAL_IP = "10.162.222.122"; // 👈 replace with your PC IP
+const LOCAL_IP = "101.16.22.22"; // 👈 replace with your PC IP
 
 const baseURL =
   Platform.OS === "android" || Platform.OS === "ios"
